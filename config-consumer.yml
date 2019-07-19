@@ -8,7 +8,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: config-consumer
+    name: config-client
 eureka:
   client:
     service-url:
@@ -19,9 +19,9 @@ eureka:
 server:
   port: 8204
 spring:
-  profiles: dev
+  profiles: test
   application:
-    name: config-consumer
+    name: config-client
 eureka:
   client:
     service-url:
